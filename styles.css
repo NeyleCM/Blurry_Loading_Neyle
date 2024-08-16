@@ -62,6 +62,11 @@ body {
 
 }
 
+.loading {
+    font-size: 50px;
+    color: white;
+}
+
 /*
 .mainBg {
     position: fixed;
@@ -74,8 +79,8 @@ body {
     background-size: cover;
     opacity: 0;
     transition: opacity 100ms ease-in-out; /* 1000ms = 1 segundo 
-} */
- 
+} 
+
 .loading {
 position: fixed;
 top: 50%;
@@ -84,9 +89,4 @@ transform: translate(-50%, -50%);
 font-size: 2em;
 color: white;
 }
-/*
-.loading {
-    font-size: 50px;
-    color: white;
-}
-    */
+*/
