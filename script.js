@@ -5,7 +5,7 @@ const mainBg = document.querySelector('.mainBg')
 let load = 0
 
 const scale = (num, inMin, inMax, outMin, outMax) => {
-    return ((num - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin
+    return ((num - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin // Puede ir sin llaves y sin return 
 }
 
 const blurring = () =>  {
